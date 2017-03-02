@@ -1,10 +1,45 @@
+body {
+    background-color: #cee3f8;
+}
+
 h1 {
     text-align: center;
 }
 
+button, input {
+    display: block;
+    margin: auto;
+}
+
+#goto {
+    padding: .9em;
+}
+
 .post {
+    display: block;
+    background-color: white;
     border: 1px solid black;
     width: 80%;
     margin: 2% auto;
     padding: 2%;
+    overflow: auto;
+}
+
+.post a {
+    color: black;
+}
+
+.post ul {
+    float: left;
+    width: 60%;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.post ul li {
+    margin: 0.5em;
+}
+
+.post img {
+    float: right;
 }
