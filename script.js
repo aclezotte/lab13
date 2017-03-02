@@ -30,7 +30,7 @@ $(function(){
                 var score = redditArray[i].data.score;
                 var permalink = 'https://www.reddit.com' + redditArray[i].data.permalink;
                 $('section').append(
-                    '<div class="post"><a href="' + permalink + '"><ul><li><strong>Title:</strong> ' + title + '</li><li><strong>Author:</strong> /u/' + author + '</li><li><strong>Score:</strong> ' + score + '</li></ul><img src="' + thumbnail + '"/></a></div>'
+                    '<a href="' + permalink + '"><div class="post"><ul><li><strong>Title:</strong> ' + title + '</li><li><strong>Author:</strong> /u/' + author + '</li><li><strong>Score:</strong> ' + score + '</li></ul><img src="' + thumbnail + '"/></div></a>'
                 );
             }
         });
